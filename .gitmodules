@@ -4,3 +4,6 @@
 [submodule "data_lab2"]
 	path = data_lab2
 	url = https://gist.github.com/d66a59b6db4e59c16efd4c42ad411f8e.git
+[submodule "datalab2"]
+	path = datalab2
+	url = https://gist.github.com/d66a59b6db4e59c16efd4c42ad411f8e.git
