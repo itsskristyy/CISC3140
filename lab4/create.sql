@@ -83,7 +83,7 @@ Mods_WIP INT,
 Mods_Overall INT
 );
 -- import the data from the file to the temporary table
-.import data.csv _csv_import
+.import data_4/data.csv _csv_import
 -- add data from temporary table to Cars table
 INSERT INTO Cars (Car_ID, Year, Make, Model,
 Racer_Turbo, Racer_Supercharged, Racer_Performance, Racer_Horsepower,
