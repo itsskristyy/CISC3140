@@ -1,0 +1,33 @@
+.homeOuterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeInnerContainer {
+    background-color: lightgray;
+    border-radius: 10px;
+    display: inline-block;
+    /* top right bottom left */
+    padding: 45px 50px 45px 50px;
+    margin: 50px;
+}
+
+.homeHeader {
+
+    position: relative;
+    margin-top: 350px;
+    text-align: center;
+}
+
+.homeP {
+text-align: center;
+    position: relative;
+    
+}
+
+.homeImgBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
