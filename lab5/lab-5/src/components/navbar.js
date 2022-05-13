@@ -3,17 +3,19 @@ import React from "react"
 import { Link } from 'react-router-dom'
 import car from "../images/beetle_car.png";
 
+
 export default function Navbar() {
     return (
-        <div className="container">
+
             <nav>
             <img src={car} alt="car" className="homeImg"/>
                 <Link to="/" style = {styles.nav}>Home</Link>
-                <Link to="/" style = {styles.nav}>Cars</Link>
-                <Link to="/" style = {styles.nav}>Owners</Link>
-                <Link to = "/" style = {styles.nav} > Extra </Link>
+                <Link to="/cars/" style = {styles.nav}>Cars</Link>
+                <Link to="/cars/update/owner" style = {styles.nav}>Update Info</Link>
+                <Link to = "/cars/new/" style = {styles.nav} > Add </Link>
+                <Link to = "/cars/new" style = {styles.nav} > New </Link>
             </nav>
-        </div>
+
     )
 }
 

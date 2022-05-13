@@ -1,33 +1,45 @@
-.homeOuterContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.homeInnerContainer {
-    background-color: lightgray;
-    border-radius: 10px;
-    display: inline-block;
-    /* top right bottom left */
-    padding: 45px 50px 45px 50px;
-    margin: 50px;
-}
-
-.homeHeader {
+.header {
 
     position: relative;
     margin-top: 350px;
     text-align: center;
 }
 
-.homeP {
-text-align: center;
+.header2 {
+
     position: relative;
-    
+    margin-top: 20px;
+    text-align: center;
+}
+input {
+    display: flex ;
+    width: 75%;
+
+    margin: 2% auto;
+      fontSize: 35;
 }
 
-.homeImgBox {
+button {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 1%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.car-container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cars {
+    min-width: 250px;
+    min-height: 125px;
+    margin: 2.5% 2.5%;
 }
