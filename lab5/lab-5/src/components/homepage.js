@@ -17,7 +17,7 @@ const styles= {
   home:{
     textAlign: 'center',
       fontSize: 28,
-      paddingTop: 300,
+      padding: 50,
       top: 100, left: 100,
       right: 100,
       justifyContent: 'center',

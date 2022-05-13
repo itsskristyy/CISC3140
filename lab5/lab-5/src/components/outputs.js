@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 const useGetOperation = (url) => {
-    const [data, setData] = useState("");
+    const [data, setData] = useState('');
 
     useEffect(() => {
         async function getCars() {

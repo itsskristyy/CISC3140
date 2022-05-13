@@ -20,9 +20,9 @@ function App() {
                 <Route path="cars">
                     <Route index element={<ViewCars/>} />
                     <Route path="add" element={<AddCars />} />
-                    <Route path="update" >
+
                         <Route path=":id" element={<UpdateCars />} />
-                    </Route>
+                    
                 </Route>
             </Routes>
         </div>

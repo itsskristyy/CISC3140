@@ -5,7 +5,7 @@ import axios from "axios";
 function UpdateCars() {
 
     const {id} = useParams()
-    const [data, setData] = useState(null)
+    const [data, setData] = useState('')
     console.log(data)
 
     const handleSubmitOwner = async (e) => {

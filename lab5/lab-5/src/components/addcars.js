@@ -3,7 +3,7 @@ import axios from "axios";
 
 function AddCars() {
 
-    const [data, setData] = useState(null)
+    const [data, setData] = useState('')
 
     const handleSubmit = async (event) => {
         event.preventDefault()
@@ -19,7 +19,7 @@ function AddCars() {
             }]
         }
         console.log(obj)
-        const info = await axios.post("http://localhost:8000/cars/new", obj)
+        const info = await axios.post("http://localhost:8000/cars/newcar", obj)
         setData(info)
         event.target[0].value = ""
         event.target[1].value = ""

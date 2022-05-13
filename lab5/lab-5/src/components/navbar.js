@@ -8,12 +8,12 @@ export default function Navbar() {
     return (
 
             <nav>
-            <img src={car} alt="car" className="homeImg"/>
+            
                 <Link to="/" style = {styles.nav}>Home</Link>
-                <Link to="/cars/" style = {styles.nav}>Cars</Link>
-                <Link to="/cars/update/owner" style = {styles.nav}>Update Info</Link>
-                <Link to = "/cars/new/" style = {styles.nav} > Add </Link>
-                <Link to = "/cars/new" style = {styles.nav} > New </Link>
+                <Link to="/cars" style = {styles.nav}>Cars</Link>
+                <Link to="/cars/update" style = {styles.nav}>Update Info</Link>
+                <Link to = "/cars/newcar" style = {styles.nav} > Add </Link>
+                <Link to = "" style = {styles.nav} > New </Link>
             </nav>
 
     )
